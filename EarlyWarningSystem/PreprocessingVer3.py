@@ -409,12 +409,6 @@ def build_indikator(nilai_df):
 
         nilai_min=("nilai", "min"),
 
-        jumlah_data_nilai=("nilai", "count"),
-
-        jumlah_mapel_nilai_rendah=(
-            "nilai",
-            lambda s: int((s < 75).sum())
-        )
     )
 
     # =========================
@@ -516,6 +510,82 @@ def get_mapel_catatan(
 
 
 # =========================================================
+# REKOMENDASI TINDAKAN
+# =========================================================
+
+def get_rekomendasi(row):
+
+    kategori = row.get("kategori_risiko_fuzzy", "")
+
+    rata = float(row.get("rata_rata_nilai", 0))
+
+    nilai_min = float(row.get("nilai_min", 0))
+
+    tren = row.get("tren_nilai", "")
+
+    mapel_catatan = str(row.get("mapel_catatan", "")).strip()
+
+    if kategori == "Tinggi":
+
+        if nilai_min < 30:
+            return (
+                "Lakukan konsultasi segera dengan orang tua/wali; "
+                "koordinasi dengan guru BK untuk pendampingan intensif; "
+                "pertimbangkan program remedial khusus"
+            )
+
+        rekomendasi = [
+            "Pantau perkembangan nilai secara mingguan",
+            "Lakukan bimbingan belajar tambahan"
+        ]
+
+        if mapel_catatan:
+            rekomendasi.append(
+                f"Fokus perbaikan pada: {mapel_catatan}"
+            )
+
+        if tren == "Turun":
+            rekomendasi.append(
+                "Segera konsultasikan dengan orang tua karena tren nilai menurun"
+            )
+
+        return "; ".join(rekomendasi)
+
+    elif kategori == "Sedang":
+
+        rekomendasi = []
+
+        if tren == "Turun":
+            rekomendasi.append(
+                "Pantau tren nilai — terjadi penurunan signifikan"
+            )
+
+        if rata < 80:
+            rekomendasi.append(
+                "Dorong siswa untuk aktif bertanya dan mengikuti remedial jika tersedia"
+            )
+
+        if mapel_catatan:
+            rekomendasi.append(
+                f"Perhatikan mata pelajaran: {mapel_catatan}"
+            )
+
+        if not rekomendasi:
+            rekomendasi.append(
+                "Lakukan pemantauan berkala dan motivasi siswa untuk mempertahankan nilai"
+            )
+
+        return "; ".join(rekomendasi)
+
+    else:
+
+        return (
+            "Pertahankan prestasi; "
+            "lakukan monitoring rutin setiap akhir semester"
+        )
+
+
+# =========================================================
 # FUZZY
 # =========================================================
 
@@ -527,10 +597,6 @@ def fuzzy_score_row(row):
 
     nilai_min = float(
         row.get("nilai_min", 0)
-    )
-
-    jumlah_mapel_rendah = int(
-        row.get("jumlah_mapel_nilai_rendah", 0)
     )
 
     delta = row.get(
@@ -571,7 +637,6 @@ def fuzzy_score_row(row):
             pd.notna(delta)
             and delta <= -3
         )
-        or (jumlah_mapel_rendah > 0)
     ):
 
         skor = 50
@@ -614,17 +679,6 @@ def fuzzy_score_row(row):
 
             alasan.append(
                 "tren nilai turun signifikan"
-            )
-
-        if jumlah_mapel_rendah > 0:
-
-            skor += min(
-                10,
-                jumlah_mapel_rendah * 5
-            )
-
-            alasan.append(
-                "ada mata pelajaran bernilai rendah"
             )
 
         skor = min(skor, 69)
@@ -703,6 +757,12 @@ def apply_fuzzy(indikator_df, nilai_df):
             else ""
         ),
 
+        axis=1
+    )
+
+    # REKOMENDASI TINDAKAN — diisi setelah mapel_catatan tersedia
+    hasil["rekomendasi_tindakan"] = hasil.apply(
+        get_rekomendasi,
         axis=1
     )
 

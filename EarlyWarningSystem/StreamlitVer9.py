@@ -5,7 +5,7 @@ import plotly.express as px
 import sqlite3
 import uuid
 
-from PreprocessingVer3 import (
+from PreprocessingVer4 import (
     extract_dkn_file,
     preprocess_dataframe,
     build_indikator,
@@ -55,6 +55,26 @@ def conn():
     return sqlite3.connect(DB, check_same_thread=False)
 
 # =========================================================
+# KOLOM YANG DITAMPILKAN (tanpa user_id, jumlah_data_nilai,
+# jumlah_mapel_nilai_rendah)
+# =========================================================
+
+DISPLAY_COLS = [
+    "nama_siswa",
+    "kelas",
+    "rata_rata_nilai",
+    "nilai_min",
+    "delta_nilai",
+    "tren_nilai",
+    "skor_risiko_fuzzy",
+    "kategori_risiko_fuzzy",
+    "makna_lapangan",
+    "alasan_risiko",
+    "rekomendasi_tindakan",
+    "mapel_catatan",
+]
+
+# =========================================================
 # INIT DB
 # =========================================================
 
@@ -98,8 +118,6 @@ def init_db():
         kelas TEXT,
         rata_rata_nilai REAL,
         nilai_min REAL,
-        jumlah_data_nilai INTEGER,
-        jumlah_mapel_nilai_rendah INTEGER,
         delta_nilai REAL,
         tren_nilai TEXT,
         skor_risiko_fuzzy REAL,
@@ -127,6 +145,12 @@ def format_number(x):
 
     except:
         return "-"
+
+
+def get_display_df(df: pd.DataFrame) -> pd.DataFrame:
+    """Kembalikan df hanya dengan kolom yang perlu ditampilkan."""
+    cols = [c for c in DISPLAY_COLS if c in df.columns]
+    return df[cols]
 
 # =========================================================
 # DETAIL SISWA
@@ -318,7 +342,19 @@ def save_user_data(user_id, nilai_df, hasil_df):
         save_hasil = hasil_df.copy()
         save_hasil["user_id"] = user_id
 
-        save_hasil.to_sql(
+        # Simpan hanya kolom yang ada di schema DB
+        db_cols = [
+            "user_id", "siswa_id", "nama_siswa", "kelas",
+            "rata_rata_nilai", "nilai_min",
+            "delta_nilai", "tren_nilai",
+            "skor_risiko_fuzzy", "kategori_risiko_fuzzy",
+            "makna_lapangan", "alasan_risiko",
+            "rekomendasi_tindakan", "mapel_catatan"
+        ]
+
+        save_cols = [c2 for c2 in db_cols if c2 in save_hasil.columns]
+
+        save_hasil[save_cols].to_sql(
             "hasil_data",
             c,
             if_exists="append",
@@ -639,14 +675,14 @@ if menu == "Dashboard":
     ]
 
     st.dataframe(
-        prioritas_df,
+        get_display_df(prioritas_df),
         use_container_width=True
     )
 
     st.subheader("📄 Semua Data")
 
     selected_rows = st.dataframe(
-        filtered_df,
+        get_display_df(filtered_df),
         use_container_width=True,
         on_select="rerun",
         selection_mode="multi-row"
@@ -703,7 +739,7 @@ if menu == "Dashboard":
 
     display_student_detail(filtered_df)
 
-    csv = filtered_df.to_csv(index=False)
+    csv = get_display_df(filtered_df).to_csv(index=False)
 
     st.download_button(
         "⬇️ Download CSV",
@@ -825,7 +861,7 @@ if menu == "Dashboard":
             use_container_width=True
         )
 
-# =====================================================
+    # =====================================================
     # HAPUS DATA PER FILE
     # =====================================================
 
