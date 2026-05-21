@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cetak DKN</title></head>
+
+<body>
+    <div style="overflow: auto">
+                
+        <table style="width: 100%;font-size: 14pt">
+            <tr>
+                <td style="text-align: center;vertical-align: top;font-weight: bold" colspan="15">
+                    DAFTAR KUMPULAN NILAI SEMESTER 1 DAN 2<br>
+                    TAHUN AJARAN 2025/2026 SEMESTER GENAP<br>
+                    SEKOLAH MENEGAH PERTAMA<br>(SMP)
+                </td>
+            </tr>
+        </table>
+
+        
+        <table style="width: 50%;font-size: 12pt">
+            <tr>
+                <td colspan="4">Kelas</td>
+                <td>: 8 F</td>
+            </tr>
+            <tr>
+                <td colspan="4">Nama Sekolah (NPSN)</td>
+                <td>: <a href="https://rapordispendik.surabaya.go.id/api/cetak/cetak_dkn?code=eyJpZF9yb21iZWwiOiIyOTk5MyIsImplbmphbmciOiJTTVAifQ%3D%3D&amp;excel=export&excel=export">SMP NEGERI 48 SURABAYA 20571616</a></td>
+            </tr>
+            <tr>
+                <td colspan="4">Alamat Sekolah</td>
+                <td>: JL. BRATANG WETAN NO.36 SURABAYA                                          </td>
+            </tr>
+            <tr>
+                <td colspan="4">Telp/ Fax</td>
+                <td>: 0315023755 / 031-5023755</td>
+            </tr>
+        </table>
+
+        
+                <table style="width: 100%;border-collapse: collapse;font-size: 10pt" border="1">
+            <thead>
+                <tr style="background: #ccc">
+                    <th rowspan="2">No</th>
+                    <th rowspan="2">Nama</th>
+                    <th rowspan="2">Semester</th>
+                    <th rowspan="2">Aspek</th>
+                    <th colspan="7">KELOMPOK A</th><th colspan="4">KELOMPOK B</th>                </tr>
+                <tr style="background: #ccc">
+                    <th>Pendidikan Agama dan Budi Pekerti</th><th>Pendidikan Pancasila</th><th>Bahasa Indonesia</th><th>Matematika</th><th>Ilmu Pengetahuan Alam</th><th>Ilmu Pengetahuan Sosial</th><th>Bahasa Inggris</th><th>Prakarya</th><th>Pendidikan Jasmani, Olahraga, dan Kesehatan</th><th>Informatika</th><th>Bahasa Jawa</th>                </tr>
+            </thead>
+            <tbody>
+                                    <tr>
+                        <td rowspan="2">1</td>
+                        <td rowspan="2">AFIA ZAHRA RIZQY CHRISNA</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>94</td><td>95</td><td>93</td><td>95</td><td>94</td><td>94</td><td>91</td><td>97</td><td>92</td><td>93</td><td>94</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">2</td>
+                        <td rowspan="2">AHMAD MAULANA IBRAHIM</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">3</td>
+                        <td rowspan="2">ALAN JANUAR</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>91</td><td>90</td><td>94</td><td>89</td><td>90</td><td>88</td><td>96</td><td>92</td><td>92</td><td>91</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">4</td>
+                        <td rowspan="2">ANGGI PERMATASARI</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>92</td><td>92</td><td>92</td><td>95</td><td>88</td><td>92</td><td>93</td><td>97</td><td>92</td><td>93</td><td>95</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">5</td>
+                        <td rowspan="2">ARYASATYA RADHITYA PUTRA</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>93</td><td>95</td><td>94</td><td>97</td><td>95</td><td>95</td><td>95</td><td>98</td><td>91</td><td>95</td><td>93</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">6</td>
+                        <td rowspan="2">ATILLASYAH YUGO BRILIANT</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>90</td><td>91</td><td>92</td><td>89</td><td>90</td><td>87</td><td>95</td><td>92</td><td>92</td><td>91</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">7</td>
+                        <td rowspan="2">DAFA ALDIANO BIMANTARA</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>92</td><td>92</td><td>95</td><td>88</td><td>91</td><td>88</td><td>96</td><td>92</td><td>92</td><td>92</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">8</td>
+                        <td rowspan="2">DIFANDI ADHE RAMADHAN</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>92</td><td>90</td><td>93</td><td>89</td><td>87</td><td>87</td><td>95</td><td>92</td><td>91</td><td>90</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">9</td>
+                        <td rowspan="2">FAIZA LAILLATUL ROHMAH</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>93</td><td>90</td><td>92</td><td>94</td><td>90</td><td>91</td><td>94</td><td>96</td><td>92</td><td>93</td><td>93</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">10</td>
+                        <td rowspan="2">FANDITO RESTU PUTRA ANANDA</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>88</td><td>89</td><td>92</td><td>87</td><td>88</td><td>87</td><td>95</td><td>92</td><td>88</td><td>90</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">11</td>
+                        <td rowspan="2">MAULANA FAHMI BAYU PRAWIRA</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>92</td><td>92</td><td>96</td><td>92</td><td>92</td><td>94</td><td>96</td><td>93</td><td>92</td><td>92</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">12</td>
+                        <td rowspan="2">MEDINA SALSABILA ZAIN</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>95</td><td>95</td><td>94</td><td>94</td><td>92</td><td>94</td><td>89</td><td>97</td><td>91</td><td>94</td><td>96</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">13</td>
+                        <td rowspan="2">MOCH RANGGA HUDA APRILIANSYAH</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>92</td><td>96</td><td>94</td><td>95</td><td>92</td><td>93</td><td>93</td><td>97</td><td>92</td><td>91</td><td>94</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">14</td>
+                        <td rowspan="2">MOCH. BURHANUDIN ANGGA RIYANTO</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>92</td><td>90</td><td>93</td><td>94</td><td>90</td><td>91</td><td>90</td><td>97</td><td>93</td><td>92</td><td>92</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">15</td>
+                        <td rowspan="2">MOCH. JAWAAHIR FUADI</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>95</td><td>92</td><td>94</td><td>90</td><td>91</td><td>90</td><td>97</td><td>93</td><td>93</td><td>93</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">16</td>
+                        <td rowspan="2">MOHAMMAD BISMA</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>90</td><td>91</td><td>90</td><td>88</td><td>88</td><td>88</td><td>97</td><td>91</td><td>91</td><td>91</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">17</td>
+                        <td rowspan="2">MUHAMMAD RIDHWAN KURNIATULLAH</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>93</td><td>90</td><td>94</td><td>91</td><td>90</td><td>87</td><td>96</td><td>92</td><td>92</td><td>91</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">18</td>
+                        <td rowspan="2">MUHAMMAD SYAHRULLAH</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>93</td><td>93</td><td>90</td><td>92</td><td>88</td><td>92</td><td>89</td><td>96</td><td>92</td><td>93</td><td>92</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">19</td>
+                        <td rowspan="2">NAIFA ARDELIA</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>92</td><td>88</td><td>91</td><td>94</td><td>91</td><td>90</td><td>88</td><td>96</td><td>92</td><td>92</td><td>93</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">20</td>
+                        <td rowspan="2">NAYLA SYIFA FAUZIYAH</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>93</td><td>93</td><td>95</td><td>96</td><td>90</td><td>95</td><td>92</td><td>97</td><td>91</td><td>93</td><td>94</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">21</td>
+                        <td rowspan="2">PUTRY ARIYANI FAUZIAH</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>93</td><td>92</td><td>92</td><td>93</td><td>89</td><td>90</td><td>92</td><td>96</td><td>92</td><td>90</td><td>93</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">22</td>
+                        <td rowspan="2">RAE&#039;SA NAURAH ASSNAFISAH</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>93</td><td>92</td><td>91</td><td>94</td><td>91</td><td>90</td><td>93</td><td>96</td><td>92</td><td>93</td><td>94</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">23</td>
+                        <td rowspan="2">RAFI ACHMAD RAMADANI AL AZIZ</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>93</td><td>91</td><td>91</td><td>93</td><td>90</td><td>91</td><td>91</td><td>96</td><td>92</td><td>94</td><td>94</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">24</td>
+                        <td rowspan="2">RAISA AZZAHRA PUTRI LUBIANTO</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>92</td><td>92</td><td>93</td><td>93</td><td>90</td><td>90</td><td>93</td><td>94</td><td>92</td><td>92</td><td>94</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">25</td>
+                        <td rowspan="2">RARA ANANDA CATUR</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>92</td><td>91</td><td>93</td><td>89</td><td>90</td><td>92</td><td>95</td><td>92</td><td>91</td><td>93</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">26</td>
+                        <td rowspan="2">REGEL HUGA PUTRA</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>88</td><td>88</td><td>91</td><td>88</td><td>87</td><td>86</td><td>93</td><td>91</td><td>89</td><td>90</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">27</td>
+                        <td rowspan="2">RIZKY ILHAM AFANDY</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>92</td><td>91</td><td>95</td><td>88</td><td>89</td><td>88</td><td>95</td><td>93</td><td>91</td><td>91</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">28</td>
+                        <td rowspan="2">ROCHMAN GALANG RAMADHAN</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>90</td><td>91</td><td>87</td><td>88</td><td>88</td><td>91</td><td>95</td><td>92</td><td>91</td><td>90</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">29</td>
+                        <td rowspan="2">SACHIKO CLARESTA SHERON</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>92</td><td>91</td><td>91</td><td>88</td><td>89</td><td>90</td><td>95</td><td>93</td><td>90</td><td>90</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">30</td>
+                        <td rowspan="2">SALMA PEARLYFIA AQEELA</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>95</td><td>92</td><td>92</td><td>96</td><td>92</td><td>95</td><td>93</td><td>97</td><td>91</td><td>94</td><td>94</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">31</td>
+                        <td rowspan="2">WANDA MEGA AULIA FITRIANI</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>92</td><td>88</td><td>91</td><td>93</td><td>89</td><td>90</td><td>88</td><td>95</td><td>92</td><td>92</td><td>93</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">32</td>
+                        <td rowspan="2">YOGA PERDANA KUSUMA</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>88</td><td>91</td><td>93</td><td>88</td><td>89</td><td>88</td><td>95</td><td>91</td><td>92</td><td>91</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">33</td>
+                        <td rowspan="2">ZAHRA MA&#039;RIFATUL NURLITA</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>90</td><td>92</td><td>94</td><td>90</td><td>90</td><td>88</td><td>96</td><td>93</td><td>92</td><td>91</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                                    <tr>
+                        <td rowspan="2">34</td>
+                        <td rowspan="2">ZIVINKA LEVINA PUTRI AFRIANI</td>
+                        <td>Ganjil</td>
+                        <td>Nilai Akhir</td>
+                        <td>91</td><td>95</td><td>92</td><td>95</td><td>89</td><td>92</td><td>90</td><td>97</td><td>93</td><td>94</td><td>94</td>                    </tr>
+                    <tr>
+                        <td>Genap</td>
+                        <td>Nilai Akhir</td>
+                        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>                    </tr>
+                            </tbody>
+        </table>
+
+        
+        <table style="width: 100%;font-size: 12pt">
+            <tr>
+                <td rowspan="2" colspan="3">&nbsp;</td>
+                <td style="text-align: center;vertical-align: top" colspan="5">
+                </td>
+                <td style="text-align: center;vertical-align: top" colspan="7">
+                    Surabaya,
+                    01 Juni 2026                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;vertical-align: top" colspan="5">
+                    Walikelas
+                    <div style="height: 3cm">&nbsp;</div>
+                    <span style="border-bottom: 1px solid #000">
+                        LAILATUL FADLILAH
+                    </span>
+                    <br>
+                    <span style="border-top: 1px solid #000">NIP. 198307022022212016</span>
+                </td>
+                <td style="text-align: center;vertical-align: top" colspan="7">
+                    Kepala SMP NEGERI 48 SURABAYA
+                    <div style="height: 3cm">&nbsp;</div>
+                    <span style="border-bottom: 1px solid #000">
+                        DARTO
+                    </span>
+                    <br>
+                    <span style="border-top: 1px solid #000">NIP. 197012062008011010</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
